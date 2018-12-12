@@ -33,7 +33,6 @@ class Bottles
   end
 
   def phrase(count = 99, word = "bottle")
-    "#{count} #{pluralize(word)}"
     if count == 0
       "no more #{pluralize(word)}"
     elsif count == 1
